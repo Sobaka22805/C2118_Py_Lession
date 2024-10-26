@@ -14,9 +14,9 @@ class Pumpkin:
     def get_info(self):
         print('General Info:')
         if self.isAvailable:
-            print(f'\tcolor-{self.color} | thk - {self.thinkness}')
+            print(f'\tColor-{self.color} | thk - {self.thinkness}')
         else:
-            print('\tthis pumpkin is absent in storage, sorry')
+            print('\tThis pumpkin is absent in storage, sorry')
 
 
 pumpkinYellow = Pumpkin('Yellow', 12)
